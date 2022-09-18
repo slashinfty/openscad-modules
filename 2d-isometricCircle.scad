@@ -38,7 +38,7 @@ module isometricCircle(s) {
     m = (s * sqrt(3)) / 2;
     union() {
         translate([m / 3, 0])
-        sector(m / 3, 120, -60);
+        sector(m / 3, 120, 300);
         
         difference() {
             translate([0, -s / 2])
